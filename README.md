@@ -59,10 +59,10 @@ Button names refer to the **N64 controls mapped in Zelda Recompiled**, not keybo
 
 | Input | Action |
 | --- | --- |
-| R + D-pad Left / Right | Switch character |
-| R + D-pad Up | Return to Link |
+| Z + D-pad Left / Right | Switch character |
+| Z + D-pad Up | Return to Link |
 | Z + D-pad Down | Open or close settings |
-| R + D-pad Down | Alternate settings shortcut |
+| Z + D-pad Down | Alternate settings shortcut |
 | L while standing still | Character emote |
 
 In settings, **D-pad Up/Down** selects an option, **Left/Right** adjusts it, and **B or Start** saves and closes.
