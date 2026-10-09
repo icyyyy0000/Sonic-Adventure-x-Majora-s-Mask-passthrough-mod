@@ -13,13 +13,13 @@ Termina Adventure uses a companion mod for **Sonic Adventure DX**. Both games ru
 - Six playable Sonic Adventure characters with their original models, animation motions, and character sound effects.
 - Sonic's momentum, spindash, homing attacks, and homing chains against eligible enemies.
 - Tails' flight and tail spin; Knuckles' glide, climbing, and punches; Amy's hammer attacks and running hammer vault.
-- Big's facing-directed grapple, airborne stomp, and optional original fishing-rod swing.
+- New abilities for Big, facing-directed grapple, airborne stomp, and optional original fishing-rod swing. Fishing does not work.
 - Gamma's shots and hover, with adjustable hover speed and firing rate.
 - A standing emote for each character on **L**.
 - A character-follow camera with adjustable response, compact control hints, and a single-screen settings menu.
 - Switching from any Link mask form and returning to the underlying form.
 
-No Super Sonic is included.
+Super Sonic. Eggman, or Tikal are not included.
 
 ## Requirements
 
