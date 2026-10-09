@@ -1,0 +1,26 @@
+[manifest]
+id = "termina_adventure_bridge"
+version = "0.1.22"
+display_name = "Termina Adventure SADX Companion"
+description = "Runs original SADX character tasks against streamed Zelda collision and returns their poses and animation state. Experimental; combat and water integration remain incomplete."
+short_description = "SADX character matching and world bridge."
+authors = ["Termina Adventure project"]
+game_id = "mm"
+minimum_recomp_version = "1.2.2"
+dependencies = ["termina_adventure:0.1.22"]
+optional_dependencies = []
+native_libraries = [{name = "termina_bridge", funcs = ["ta_bridge_publish", "ta_bridge_poll", "ta_bridge_close", "ta_bridge_publish_world", "ta_bridge_next_epoch"]}]
+[inputs]
+elf_path = "../build/observer.elf"
+mod_filename = "termina_adventure_bridge"
+func_reference_syms_file = "../Zelda64RecompSyms/mm.us.rev1.syms.toml"
+data_reference_syms_files = ["../Zelda64RecompSyms/mm.us.rev1.datasyms.toml", "../Zelda64RecompSyms/mm.us.rev1.datasyms_static.toml"]
+additional_files = []
+
+[[manifest.config_options]]
+id = "native_physics"
+name = "Original SADX physics"
+description = "Use the original SADX player task against mirrored Zelda collision. Sonic waits safely on pauses, disconnection or incomplete geometry. Experimental."
+type = "Enum"
+options = ["Off", "On"]
+default = "On"
