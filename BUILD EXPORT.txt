@@ -1,0 +1,18 @@
+BUILD THE EXPORTED SOURCE
+Run commands from this Source directory with Python 3 available.
+External tools: LLVM 18.1.8 clang.exe and ld.lld.exe, Zig 0.13.0,
+and RecompModTool.exe. Compilers are not bundled. These are the versions used
+for the packaged build. SADX SDK headers and Zelda reference files are included.
+
+Replace the tool-directory placeholders below with your actual absolute paths:
+python tools/build.py --llvm "C:\tools\llvm18\bin" --mod-tool "C:\tools\RecompModTool.exe"
+python tools/build.py --bridge --llvm "C:\tools\llvm18\bin" --mod-tool "C:\tools\RecompModTool.exe"
+python tools/build_native.py --zig "C:\tools\zig-0.13.0\zig.exe" --sdk "dependencies/SADXModLoader/include"
+
+Outputs: build/termina_adventure-0.1.22.nrm,
+build/termina_adventure_bridge-0.1.22.nrm, build/native/termina_bridge.dll,
+and build/native/TerminaAdventureSADX.dll. Install as described in INSTALLATION.txt.
+Do not use --restore-018-companion: this build includes Tails changes after 0.1.18.
+Historical tests/install scripts reference the original development workstation
+and old releases; adapt those paths before use. Do not run installation scripts
+blindly from this export. They are supplied as source, not a portable installer.

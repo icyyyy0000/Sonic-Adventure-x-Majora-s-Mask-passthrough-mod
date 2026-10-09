@@ -1,0 +1,39 @@
+[manifest]
+id = "termina_adventure"
+version = "0.1.22"
+display_name = "Termina Adventure"
+description = "Six Sonic Adventure characters with original SADX models, movement and action sounds through the companion. R+D-pad left/right switches; R+Up returns to Link. Use Link for Zelda progression."
+short_description = "Sonic Adventure characters with original movement, models and sounds."
+authors = ["Termina Adventure project"]
+game_id = "mm"
+minimum_recomp_version = "1.2.2"
+dependencies = []
+optional_dependencies = []
+native_libraries = [{name = "termina_bridge", funcs = ["ta_settings_load", "ta_settings_save"]}]
+[inputs]
+elf_path = "build/mod.elf"
+mod_filename = "termina_adventure"
+func_reference_syms_file = "Zelda64RecompSyms/mm.us.rev1.syms.toml"
+data_reference_syms_files = ["Zelda64RecompSyms/mm.us.rev1.datasyms.toml", "Zelda64RecompSyms/mm.us.rev1.datasyms_static.toml"]
+additional_files = []
+[[manifest.config_options]]
+id = "starting_character"
+name = "Starting character"
+description = "Select a character on scene load. R+D-pad cycles in gameplay."
+type = "Enum"
+options = ["Link", "Sonic", "Tails", "Knuckles", "Amy", "Big", "E-102 Gamma"]
+default = "Link"
+[[manifest.config_options]]
+id = "character_models"
+name = "SADX character models"
+description = "Experimental local models. Draw the selected character over any Zelda mask form; return to the previous form when selecting Link."
+type = "Enum"
+options = ["Off", "On"]
+default = "On"
+[[manifest.config_options]]
+id = "show_hud"
+name = "Character HUD"
+description = "Briefly show the selected character after switching. Control hints are configured in the in-game settings menu."
+type = "Enum"
+options = ["Off", "On"]
+default = "On"
