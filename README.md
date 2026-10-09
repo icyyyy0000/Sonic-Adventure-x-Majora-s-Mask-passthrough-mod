@@ -1,3 +1,5 @@
+# YOU NEED TO INSTALL THE MAJORA'S MASK RECOMPILED AND HAVE SONIC ADVENTURE DX ON STEAM FOR THIS MOD TO WORK
+
 # Termina Adventure
 
 Play **Majora's Mask: Recompiled** as Sonic, Tails, Knuckles, Amy, Big the Cat, or E-102 Gamma, and switch back to Link whenever you need Zelda's items, masks, or progression mechanics.
@@ -147,3 +149,5 @@ Use Link for items, masks, and progression actions. Both games must remain runni
 - [SADX Mod Loader](https://github.com/X-Hax/sadx-mod-loader) and MainMemory's Character Select Mod.
 
 Project code is accompanied by its [LICENSE](LICENSE). Third-party code, game models, animations, audio, and other assets retain their respective ownership; the project license does not grant rights to those assets. The source export contains generated game assets, so review the contents before publishing the entire export to GitHub. Keep ROMs, game executables, saves, and personal settings out of the repository.
+
+# AI DISCLAIMER - THIS MOD IS AI SLOP OBVIOUSLY AND WAS MADE ALMOST ENTIRELY WITH CHATGPT AGENT MODE, DOWNLOAD ONLY IF YOU'RE OKAY WITH THAT
