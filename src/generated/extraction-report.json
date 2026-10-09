@@ -1,0 +1,104 @@
+{
+  "sonic": {
+    "nodes": 73,
+    "triangles": 1993,
+    "textures": 16,
+    "animation_actions": [
+      1,
+      6,
+      10,
+      14
+    ],
+    "animation_supported": [
+      true,
+      true,
+      true,
+      false
+    ]
+  },
+  "tails": {
+    "nodes": 68,
+    "triangles": 1987,
+    "textures": 16,
+    "animation_actions": [
+      79,
+      80,
+      13,
+      17
+    ],
+    "animation_supported": [
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  "knuckles": {
+    "nodes": 73,
+    "triangles": 1974,
+    "textures": 14,
+    "animation_actions": [
+      82,
+      57,
+      6,
+      15
+    ],
+    "animation_supported": [
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  "amy": {
+    "nodes": 78,
+    "triangles": 2139,
+    "textures": 32,
+    "animation_actions": [
+      69,
+      45,
+      6,
+      1
+    ],
+    "animation_supported": [
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  "big": {
+    "nodes": 73,
+    "triangles": 1587,
+    "textures": 38,
+    "animation_actions": [
+      23,
+      24,
+      13,
+      0
+    ],
+    "animation_supported": [
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  "gamma": {
+    "nodes": 77,
+    "triangles": 970,
+    "textures": 35,
+    "animation_actions": [
+      0,
+      3,
+      16,
+      49
+    ],
+    "animation_supported": [
+      true,
+      true,
+      true,
+      true
+    ]
+  }
+}

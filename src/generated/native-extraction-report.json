@@ -1,0 +1,135 @@
+{
+  "sonic": {
+    "actions": 149,
+    "supported": 126,
+    "variants": 4,
+    "skipped": [
+      {
+        "action": 24,
+        "reason": "Invalid RVA -10000000"
+      },
+      {
+        "action": 25,
+        "reason": "Invalid RVA -10000000"
+      },
+      {
+        "action": 26,
+        "reason": "Invalid RVA -10000000"
+      }
+    ]
+  },
+  "tails": {
+    "actions": 114,
+    "supported": 109,
+    "variants": 6,
+    "skipped": [
+      {
+        "action": 84,
+        "reason": "Invalid RVA -10000000"
+      },
+      {
+        "action": 89,
+        "reason": "Invalid RVA -10000000"
+      },
+      {
+        "action": 90,
+        "reason": "Invalid RVA -10000000"
+      },
+      {
+        "action": 98,
+        "reason": "Invalid RVA -10000000"
+      },
+      {
+        "action": 99,
+        "reason": "Invalid RVA -10000000"
+      }
+    ]
+  },
+  "knuckles": {
+    "actions": 90,
+    "supported": 89,
+    "variants": 4,
+    "skipped": [
+      {
+        "action": 8,
+        "reason": "Invalid RVA -10000000"
+      }
+    ]
+  },
+  "amy": {
+    "actions": 80,
+    "supported": 80,
+    "variants": 2,
+    "skipped": []
+  },
+  "big": {
+    "actions": 90,
+    "supported": 77,
+    "variants": 1,
+    "skipped": [
+      {
+        "action": 3,
+        "reason": "Invalid RVA -10000000"
+      },
+      {
+        "action": 26,
+        "reason": "Invalid RVA -10000000"
+      },
+      {
+        "action": 47,
+        "reason": "Invalid RVA -10000000"
+      },
+      {
+        "action": 49,
+        "reason": "Invalid RVA -10000000"
+      },
+      {
+        "action": 50,
+        "reason": "Invalid RVA -10000000"
+      },
+      {
+        "action": 51,
+        "reason": "Invalid RVA -10000000"
+      },
+      {
+        "action": 52,
+        "reason": "Invalid RVA -10000000"
+      },
+      {
+        "action": 53,
+        "reason": "Invalid RVA -10000000"
+      },
+      {
+        "action": 54,
+        "reason": "Invalid RVA -10000000"
+      },
+      {
+        "action": 71,
+        "reason": "Invalid RVA -10000000"
+      },
+      {
+        "action": 83,
+        "reason": "Invalid RVA -10000000"
+      },
+      {
+        "action": 84,
+        "reason": "Invalid RVA -10000000"
+      },
+      {
+        "action": 85,
+        "reason": "Invalid RVA -10000000"
+      }
+    ]
+  },
+  "gamma": {
+    "actions": 78,
+    "supported": 77,
+    "variants": 3,
+    "skipped": [
+      {
+        "action": 61,
+        "reason": "Invalid RVA -10000000"
+      }
+    ]
+  }
+}
